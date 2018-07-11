@@ -1,2 +1,2 @@
-script: g++ power.cpp car.cpp && ./a.out
+script: g++ power.cpp power.cpp && ./a.out
 
