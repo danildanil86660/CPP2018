@@ -1,1 +1,2 @@
-script: python main.py
+script: g++ main.cpp car.cpp && ./a.out
+
