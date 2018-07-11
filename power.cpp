@@ -8,7 +8,7 @@ template <typename T> T MyPower(T Base, T PowerBase)
      * output: Base^PowerBase
     */
     T Result = 0;
-    for (int j = 1; i <= PowerBase; j++)
+    for (int j = 1; j <= PowerBase; j++)
     {
         Result *= Base
     }
