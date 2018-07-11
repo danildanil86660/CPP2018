@@ -2,10 +2,13 @@
 
 template <typename T> T MyPower(T Base, T PowerBase)
 {
-    // MyFunction
-    /*
-     * input:Base, PowerBase
-     * output: Base^PowerBase
+    /*! \file */
+
+    //! \fn Raise int to specific power
+    /*!
+     \param base Integer to raise in specific power
+     \param power Power
+     \return result of operation
     */
     T Result = 0;
     for (int j = 1; j <= PowerBase; j++)
