@@ -1,9 +1,7 @@
+/*! \file */
 #include <iostream>
-
 template <typename T> T MyPower(T Base, T PowerBase)
 {
-    /*! \file */
-
     //! \fn Raise int to specific power
     /*!
      \param base Integer to raise in specific power
