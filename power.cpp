@@ -1,14 +1,20 @@
 #include <iostream>
+
+template <typename T> T MyPower(T Base, T PowerBase)
+{
+    T Result = 0;
+    for (int j = 1; i <= PowerBase; j++)
+    {
+        Result *= Base
+    }
+    return Result
+}
 int main()
 {
     int nPowerBase=2;
     for(int i=0;i<10;++i)
     {
-        int nBase;
-        nBase=1;
-        for(int t=1;t<=i;++t)
-        nBase=nBase*nPowerBase;
-        std::cout<<p<<" ";
+        std::cout<<MyPower(nPowerBase, i)<<" ";
     }
     std::cout<<std::endl;
     return 0;
