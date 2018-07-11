@@ -2,6 +2,11 @@
 
 template <typename T> T MyPower(T Base, T PowerBase)
 {
+    // MyFunction
+    /*
+     * input:Base, PowerBase
+     * output: Base^PowerBase
+    */
     T Result = 0;
     for (int j = 1; i <= PowerBase; j++)
     {
