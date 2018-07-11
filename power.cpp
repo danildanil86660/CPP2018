@@ -10,9 +10,9 @@ template <typename T> T MyPower(T Base, T PowerBase)
     T Result = 0;
     for (int j = 1; j <= PowerBase; j++)
     {
-        Result *= Base
+        Result *= Base;
     }
-    return Result
+    return Result;
 }
 int main()
 {
